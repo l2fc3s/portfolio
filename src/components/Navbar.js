@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { HashLink } from "react-router-hash-link";
-import { FaTimes, FaBars } from "react-icons/fa";
+import { IoMdClose, IoIosMenu } from "react-icons/io";
 import "./Navbar.css";
 
 function Navbar() {
@@ -13,15 +13,15 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <HashLink to="/" className="navbar-logo" onClick={closeMobileMenu}>
+          {/* <HashLink to="/" className="navbar-logo" onClick={closeMobileMenu}>
             <p>LL</p>
-          </HashLink>
+          </HashLink> */}
 
           <div className="mobile-icon" onClick={handleClick}>
             {click ? (
-              <FaTimes className="times" />
+              <IoMdClose className="times" />
             ) : (
-              <FaBars className="bars" />
+              <IoIosMenu className="bars" />
             )}
           </div>
 
