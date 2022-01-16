@@ -9,10 +9,58 @@
 
 h1 {
   color: white;
-  font-size: 5rem;
+  font-size: 6rem;
   text-align: left;
 }
 
+#welcome-header {
+  white-space: nowrap;
+}
+
 .welcome-text {
+  padding-bottom: 30px;
+}
+
+.about-text {
+  width: 50%;
+  text-align: right;
+  margin-left: auto;
+}
+
+.about-text > p {
+  color: #23aed1;
+  font-size: 1.4rem;
+}
+
+.text-wrapper {
+  max-width: 1300px;
   padding: 30px;
+}
+
+#welcomeArrow {
+  position: relative;
+  top: 40px;
+}
+
+.welcome-arrow {
+  color: #b1b0b0;
+  font-size: 2.5rem;
+}
+
+.welcome-arrow:hover {
+  color: #ff6232;
+  transition: 300ms;
+}
+
+/* -----------------Mobile section------------ */
+
+@media screen and (max-width: 960px) {
+  h1 {
+    font-size: 10vw;
+  }
+
+  .about-text > p {
+    color: #23aed1;
+    font-size: 1rem;
+  }
 }

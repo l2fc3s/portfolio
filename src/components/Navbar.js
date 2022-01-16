@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { HashLink } from "react-router-hash-link";
-import { IoMdClose, IoIosMenu } from "react-icons/io";
+import { IoCloseOutline, IoReorderTwoOutline } from "react-icons/io5";
 import "./Navbar.css";
 
 function Navbar() {
@@ -19,9 +19,9 @@ function Navbar() {
 
           <div className="mobile-icon" onClick={handleClick}>
             {click ? (
-              <IoMdClose className="times" />
+              <IoCloseOutline className="times" />
             ) : (
-              <IoIosMenu className="bars" />
+              <IoReorderTwoOutline className="bars" />
             )}
           </div>
 
