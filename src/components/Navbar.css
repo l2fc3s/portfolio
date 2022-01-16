@@ -49,7 +49,7 @@
 }
 
 .nav-links:hover {
-  color: #eb5a2e;
+  color: #ff6232;
   transition: 300ms;
 }
 
@@ -117,13 +117,13 @@
 
   .times,
   .bars {
-    color: #fff;
+    color: #b1b0b0;
     font-size: 2rem;
   }
 
   .times:hover,
   .bars:hover {
-    font-size: 2.1rem;
-    transition: 3ms;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
   }
 }
