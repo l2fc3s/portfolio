@@ -48,8 +48,8 @@ h1 {
 }
 
 .welcome-arrow:hover {
+  transition: 0.5s ease-in-out;
   color: #ff6232;
-  transition: 300ms;
 }
 
 /* -----------------Mobile section------------ */
