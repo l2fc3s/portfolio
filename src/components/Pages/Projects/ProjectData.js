@@ -20,7 +20,7 @@ export const ProjectData = [
     image: CarGalleryImage,
     text: "A small gallery of car photos I have taken over the last few years. Each photo displays a short paragraph on mouse hover. Responsive design for mobile and desktop with collapsible navigation bar.",
     alt: "Car Photo Gallery",
-    repo: "github repo link",
+    repo: "https://github.com/l2fc3s/html-me-something",
   },
 
   {
