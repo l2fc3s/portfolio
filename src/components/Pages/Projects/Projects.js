@@ -6,6 +6,9 @@ import "./Projects.css";
 function Projects() {
   return (
     <div className="project-section">
+      <div className="header-div">
+        <h1 className="project-header">Here are a few things I've worked on</h1>
+      </div>
       <div className="project-container">
         {ProjectData.map((project) => {
           return (
