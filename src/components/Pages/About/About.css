@@ -43,13 +43,13 @@ h1 {
 }
 
 .welcome-arrow {
-  color: #b1b0b0;
+  color: #ff6232;
   font-size: 2.5rem;
 }
 
 .welcome-arrow:hover {
-  transition: 0.5s ease-in-out;
-  color: #ff6232;
+  transition: 0.3s ease-in-out;
+  color: #fff;
 }
 
 /* -----------------Mobile section------------ */
