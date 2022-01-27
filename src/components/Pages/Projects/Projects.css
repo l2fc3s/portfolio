@@ -45,6 +45,7 @@
   width: 30%;
   height: auto;
   max-width: 600px;
+  padding-bottom: 40px;
 }
 
 .project-container {
@@ -89,6 +90,7 @@
     width: 100%;
     height: auto;
     max-width: 600px;
+    padding-bottom: 60px;
   }
 
   .header-div {
