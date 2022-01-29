@@ -1,4 +1,6 @@
 import React from "react";
+import { Button } from "../../Button";
+import { IoArrowForward } from "react-icons/io5";
 
 import { ProjectData } from "./ProjectData";
 import "./Projects.css";
@@ -28,6 +30,11 @@ function Projects() {
             </div>
           );
         })}
+      </div>
+      <div className="button-div">
+        <Button buttonSize="btn--medium">
+          Resume {<IoArrowForward className="icon" />}
+        </Button>
       </div>
     </div>
   );
