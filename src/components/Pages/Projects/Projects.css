@@ -11,7 +11,7 @@
 }
 
 .project-header {
-  font-size: 60px;
+  font-size: 110px;
   border-bottom: #23aed1 2px solid;
   width: 100%;
   padding-bottom: 20px;
@@ -24,7 +24,7 @@
 
 .view-more {
   text-decoration: none;
-  color: #00fae5;
+  color: #8c4eff;
   font-size: 0.9rem;
 }
 
@@ -72,9 +72,9 @@
   color: #fff;
 }
 
-.view-more:visited {
-  color: #7a32ff;
-}
+/* .view-more:visited {
+  color: #00fae5; 
+} */
 
 .button-div {
   display: flex;
@@ -115,7 +115,7 @@
 
   .project-header {
     text-align: center;
-    font-size: 7vw;
+    /* font-size: 100px; */
     border-bottom: #23aed1 2px solid;
     width: 100%;
     padding-bottom: 20px;
@@ -129,7 +129,7 @@
 
 @media screen and (max-width: 575px) {
   .project-header {
-    font-size: 9vw;
+    font-size: 17vw;
   }
 
   .project-title {

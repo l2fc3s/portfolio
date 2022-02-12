@@ -1,0 +1,48 @@
+.music-section {
+  height: 100%;
+  background-color: black;
+}
+
+.music-header-section {
+  margin: auto;
+  text-align: center;
+  padding: 30px 30px 100px 30px;
+  max-width: 600px;
+}
+
+.music-header {
+  text-align: center;
+  font-size: 170px;
+  padding-bottom: 50px;
+}
+
+.music-description {
+  color: #888888;
+  font-size: 1.2em;
+}
+.music-release {
+  color: #888888;
+}
+.music-title {
+  color: #fff;
+}
+
+.links {
+  font-size: 0.9rem;
+  color: #888888;
+}
+
+.links > a {
+  text-decoration: none;
+  text-decoration: none;
+  color: #8c4eff;
+}
+
+.links > a:hover {
+  transition: 0.3s;
+  color: #fff;
+}
+
+.text-overlay {
+  color: #fff;
+}
