@@ -1,3 +1,4 @@
+/* ---------- start intro section ---------- */
 .music-section {
   height: 100%;
   background-color: black;
@@ -6,7 +7,7 @@
 .music-header-section {
   margin: auto;
   text-align: center;
-  padding: 30px 30px 100px 30px;
+  padding: 30px 30px 80px 30px;
   max-width: 600px;
 }
 
@@ -20,11 +21,65 @@
   color: #888888;
   font-size: 1.2em;
 }
-.music-release {
-  color: #888888;
+/* ---------- card and image section --------- */
+
+.music-project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 100px 0 100px;
+  margin: auto;
+  max-width: 1440px;
 }
+
+.music-image {
+  height: auto;
+  width: 100%;
+  border-radius: 10px;
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.text-overlay {
+  color: #fff;
+  font-size: 0.9em;
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image-container {
+  position: relative;
+  text-align: center;
+}
+
+.music-cards {
+  width: 25%;
+  max-width: 375px;
+  padding: 30px 15px 60px 15px;
+}
+
+.image-container:hover .music-image {
+  opacity: 0.12;
+}
+
+.image-container:hover .text-overlay {
+  opacity: 1;
+}
+
 .music-title {
   color: #fff;
+  padding: 20px 0 10px 0;
+}
+
+.music-release {
+  color: #888888;
+  padding-bottom: 5px;
+  font-size: 1rem;
 }
 
 .links {
@@ -43,6 +98,4 @@
   color: #fff;
 }
 
-.text-overlay {
-  color: #fff;
-}
+/* ------------ Mobile responsive section --------------- */

@@ -21,14 +21,17 @@ const Music = () => {
           {MusicData.map((music) => {
             return (
               <div className="music-cards">
-                <a target="_blank" href={music.link}>
-                  <img
-                    className="music-image"
-                    src={music.image}
-                    alt={music.alt}
-                  />
-                </a>
-                <div className="text-overlay">{music.text}</div>
+                <div className="image-container">
+                  <a target="_blank" href={music.link}>
+                    <img
+                      className="music-image"
+                      src={music.image}
+                      alt={music.alt}
+                    />
+
+                    <div className="text-overlay">{music.text}</div>
+                  </a>
+                </div>
 
                 <h3 className="music-title">{music.name}</h3>
                 <p className="music-release">{music.released}</p>

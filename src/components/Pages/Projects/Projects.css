@@ -31,7 +31,7 @@
 .project-image {
   width: 100%;
   height: auto;
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
 .project-image:hover {
@@ -40,12 +40,13 @@
 }
 
 .project-card {
-  padding: 20px;
+  padding: 20px 30px 40px 30px;
   margin-bottom: 20px;
   width: 30%;
   height: auto;
   max-width: 600px;
-  padding-bottom: 40px;
+  min-width: 400px;
+  /* padding-bottom: 40px; */
 }
 
 .project-container {
