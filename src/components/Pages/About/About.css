@@ -45,10 +45,10 @@ h1 {
 .welcome-arrow {
   color: #fc4445;
   font-size: 2.5rem;
+  transition: 0.5s ease;
 }
 
 .welcome-arrow:hover {
-  transition: 0.3s ease-in-out;
   color: #fff;
 }
 

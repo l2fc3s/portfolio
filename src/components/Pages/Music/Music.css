@@ -60,6 +60,7 @@
 .music-cards {
   width: 25%;
   max-width: 375px;
+  min-width: 275px;
   padding: 30px 15px 60px 15px;
 }
 
@@ -93,9 +94,60 @@
   color: #8c4eff;
 }
 
+a {
+  text-decoration: none;
+}
+
 .links > a:hover {
   transition: 0.3s;
   color: #fff;
 }
 
 /* ------------ Mobile responsive section --------------- */
+
+@media screen and (max-width: 960px) {
+  .music-project-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px 0 15px;
+  }
+
+  .music-cards {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .text-overlay {
+    position: static;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    transform: none;
+    color: #888888;
+    padding-top: 5px;
+  }
+
+  .image-container {
+    position: static;
+    text-align: center;
+  }
+
+  .image-container:hover .music-image {
+    opacity: 0.5;
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .music-header-section {
+    padding-bottom: 40px;
+  }
+
+  .music-header {
+    font-size: 30vw;
+    padding-bottom: 15px;
+  }
+  .music-description {
+    font-size: 1.1em;
+  }
+}

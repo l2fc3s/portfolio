@@ -5,7 +5,7 @@ import { MusicData } from "./MusicData";
 const Music = () => {
   return (
     <>
-      <div className="music-section">
+      <div id="musicSection" className="music-section">
         <div className="music-header-section">
           <h1 className="music-header">Music</h1>
           <p className="music-description">

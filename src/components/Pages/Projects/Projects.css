@@ -32,11 +32,12 @@
   width: 100%;
   height: auto;
   border-radius: 20px;
+  opacity: 1;
+  transition: 0.5s ease;
 }
 
 .project-image:hover {
-  transition: 0.3s;
-  width: 102%;
+  opacity: 0.5;
 }
 
 .project-card {
@@ -73,10 +74,6 @@
   color: #fff;
 }
 
-/* .view-more:visited {
-  color: #00fae5; 
-} */
-
 .button-div {
   display: flex;
   justify-content: center;
@@ -90,8 +87,6 @@
 }
 
 /* --------------------------- Mobile section------------------------------- */
-
-/*  Need to work on mobile responsive */
 
 @media screen and (max-width: 960px) {
   .project-container {

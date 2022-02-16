@@ -18,7 +18,7 @@ export const MusicData = [
     name: "All City",
     link: "https://l2-music.bandcamp.com/album/all-city",
     image: allCity,
-    text: "This is a jazz inspired album that depicts the raw sounds of inner city living.  Creating this album took me back to the time I lived in Chicago. Catching the redline, skating and walking everywhere while experiencing new things.",
+    text: "This is a jazz inspired album that depicts the raw sounds of inner city living.  Creating this album took me back to when I lived in Chicago.. Catching the Redline and exploring the city.",
     alt: "All City album",
     released: "Album - 12 tracks, Nov 2016",
   },
