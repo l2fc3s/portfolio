@@ -5,6 +5,7 @@ import Fade from "react-reveal/Fade";
 import { ProjectData } from "./ProjectData";
 import "./Projects.css";
 import resume from "../../../resume/Larry LaMar Resume 2022.pdf";
+import { Link } from "react-router-dom";
 
 function Projects() {
   return (
@@ -37,9 +38,11 @@ function Projects() {
         </div>
 
         <div className="button-div">
-          <Button buttonSize="btn--medium">
-            Resume {<IoArrowForward className="icon" />}
-          </Button>
+          <Link to={resume} download target="blank">
+            <Button buttonSize="btn--medium">
+              Resume {<IoArrowForward className="icon" />}
+            </Button>
+          </Link>
         </div>
       </Fade>
     </div>
