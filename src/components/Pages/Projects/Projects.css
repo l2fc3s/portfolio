@@ -11,7 +11,7 @@
 }
 
 .project-header {
-  font-size: 110px;
+  font-size: 120px;
   border-bottom: #23aed1 2px solid;
   width: 100%;
   padding-bottom: 20px;
@@ -125,7 +125,7 @@
 
 @media screen and (max-width: 575px) {
   .project-header {
-    font-size: 17vw;
+    font-size: 22vw;
   }
 
   .project-title {

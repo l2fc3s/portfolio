@@ -1,0 +1,30 @@
+.footer-section {
+  height: 100%;
+  background-color: black;
+}
+
+.footer-container {
+  text-align: center;
+  padding: 6px;
+}
+
+.footer-container p {
+  font-size: 14px;
+  color: #888;
+}
+
+.footer-container a {
+  text-decoration: none;
+  color: #8c4eff;
+  transition: 0.5s ease;
+}
+
+.footer-container a:hover {
+  color: #fff;
+}
+
+@media screen and (max-width: 400px) {
+  .footer-container p {
+    font-size: 11px;
+  }
+}

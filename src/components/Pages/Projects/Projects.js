@@ -4,6 +4,7 @@ import { IoArrowForward } from "react-icons/io5";
 import Fade from "react-reveal/Fade";
 import { ProjectData } from "./ProjectData";
 import "./Projects.css";
+import resume from "../../../resume/Larry LaMar Resume 2022.pdf";
 
 function Projects() {
   return (

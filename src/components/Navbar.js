@@ -64,11 +64,11 @@ function Navbar() {
             <li className="nav-item">
               <HashLink
                 smooth
-                to="#connect-section"
+                to="#contactSection"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Connect
+                Contact
               </HashLink>
             </li>
           </ul>
