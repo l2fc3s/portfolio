@@ -7,7 +7,7 @@ import OrbitReportImage from "../../../images/orbit report.png";
 export const ProjectData = [
   {
     link: "https://l2fc3s.github.io/react-loftRental-website/#/",
-    title: "React 'Loft Rental' Site",
+    title: "'Loft Rental' Site",
     image: LoftRentalImage,
     text: 'React "loft rental" landing page. Fully mobile responsive design with an animated image slider gallery.',
     alt: "React 'Loft Rental' Site",

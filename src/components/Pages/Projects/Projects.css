@@ -103,7 +103,6 @@
     height: auto;
     max-width: 600px;
     min-width: 300px;
-    /* padding-bottom: 60px; */
   }
 
   .header-div {
@@ -112,14 +111,12 @@
 
   .project-header {
     text-align: center;
-    /* font-size: 100px; */
     border-bottom: #23aed1 2px solid;
     width: 100%;
     padding-bottom: 20px;
   }
 
   .project-title {
-    text-align: center;
     font-size: 2.8rem;
   }
 }
@@ -130,6 +127,6 @@
   }
 
   .project-title {
-    font-size: 2.1rem;
+    font-size: 2.5rem;
   }
 }
