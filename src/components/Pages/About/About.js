@@ -8,15 +8,14 @@ function About() {
       <div id="welcome-section" className="welcome-container">
         <div className="text-wrapper">
           <div className="welcome-text">
-            <h1 id="welcome-header">Hi, I'm Larry LaMar—</h1>
+            <h1 id="welcome-header">I'm Larry LaMar—</h1>
             <h1>a web developer, musician, and creative. </h1>
           </div>
 
           <div className="about-text">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim.
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
 
