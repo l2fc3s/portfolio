@@ -2,20 +2,23 @@ import React from "react";
 import "./About.css";
 import { IoChevronDown } from "react-icons/io5";
 
-function About() {
+function About(
+  {welcomeHeader,
+  header2,
+  aboutText,}
+) {
   return (
     <>
       <div id="welcome-section" className="welcome-container">
         <div className="text-wrapper">
           <div className="welcome-text">
-            <h1 id="welcome-header">I'm Larry LaMar—</h1>
-            <h1>a web developer, musician, and creative. </h1>
+            <h1 id="welcome-header">{welcomeHeader}</h1>
+            <h1>{header2}</h1>
           </div>
 
           <div className="about-text">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              {aboutText}
             </p>
           </div>
 
@@ -23,6 +26,7 @@ function About() {
             <IoChevronDown className="welcome-arrow" />
           </div>
         </div>
+
       </div>
     </>
   );

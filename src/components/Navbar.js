@@ -14,9 +14,7 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          {/* <HashLink to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            <p>LL</p>
-          </HashLink> */}
+          
 
           <div className="mobile-icon" onClick={handleClick}>
             {click ? (
