@@ -2,8 +2,11 @@ import React from "react";
 import "./Contact.css";
 import { IoMailOutline, IoLogoLinkedin, IoLogoGithub } from "react-icons/io5";
 import { Fade } from "react-reveal";
+import Chevron from "../../Chevron";
 
 function Contact() {
+
+
   return (
     <>
       <div id="contactSection" className="contact-section">
@@ -27,6 +30,7 @@ function Contact() {
           </div>
         </Fade>
       </div>
+      <Chevron />
     </>
   );
 }

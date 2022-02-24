@@ -1,0 +1,7 @@
+.arrow-up {
+  color: #fff;
+  font-size: 2.5rem;
+  transition: 0.5s ease;
+  background-color: black;
+  position: sticky;
+}
