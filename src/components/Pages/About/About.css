@@ -60,7 +60,7 @@ h1 {
   }
 
   .about-text > p {
-    font-size: 1rem;
+    font-size: 3vw;
   }
 }
 
@@ -68,4 +68,13 @@ h1 {
   #welcome-header {
     white-space: normal;
   }
+
+  .about-text {
+    width: 75%;
+  }
+
+  .about-text > p {
+    font-size: 1rem;
+  }
+
 }
