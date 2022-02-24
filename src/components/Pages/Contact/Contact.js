@@ -1,11 +1,21 @@
 import React from "react";
 import "./Contact.css";
-import { IoMailOutline, IoLogoLinkedin, IoLogoGithub } from "react-icons/io5";
+import { IoMailOutline, IoLogoLinkedin, IoLogoGithub, IoChevronUp } from "react-icons/io5";
 import { Fade } from "react-reveal";
-import Chevron from "../../Chevron";
+import { HashLink } from 'react-router-hash-link';
 
 function Contact() {
 
+  const showArrow = () => {
+ 
+    if(window.scrollY >= 1000){
+      document.getElementById('arrow').style.visibility = 'visible'
+    } else if (window.scrollY < 1000) {
+      document.getElementById('arrow').style.visibility = 'hidden';
+    }
+  }
+
+  window.addEventListener("scroll", showArrow);
 
   return (
     <>
@@ -29,8 +39,11 @@ function Contact() {
             </div>
           </div>
         </Fade>
+        <HashLink id='arrow' smooth to='#welcome-section' className='arrow-up'>
+          <IoChevronUp />
+        </HashLink>
       </div>
-      <Chevron />
+      
     </>
   );
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import { IoChevronDown } from "react-icons/io5";
+import { HashLink } from 'react-router-hash-link';
 
 function About(
   {welcomeHeader,
@@ -22,9 +23,9 @@ function About(
             </p>
           </div>
 
-          <div id="welcomeArrow">
+          <HashLink id="welcomeArrow" smooth to='#projectSection'>
             <IoChevronDown className="welcome-arrow" />
-          </div>
+          </HashLink>
         </div>
 
       </div>
