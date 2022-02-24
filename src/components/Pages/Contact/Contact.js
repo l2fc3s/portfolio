@@ -1,19 +1,32 @@
 import React from "react";
 import "./Contact.css";
-import { IoMailOutline, IoLogoLinkedin, IoLogoGithub, IoChevronUp } from "react-icons/io5";
+import {
+  IoMailOutline,
+  IoLogoLinkedin,
+  IoLogoGithub,
+  IoChevronUp,
+} from "react-icons/io5";
 import { Fade } from "react-reveal";
-import { HashLink } from 'react-router-hash-link';
+import { HashLink } from "react-router-hash-link";
 
 function Contact() {
-
   const showArrow = () => {
- 
-    if(window.scrollY >= 1000){
-      document.getElementById('arrow').style.visibility = 'visible'
+    if (window.scrollY >= 1000) {
+      document.getElementById("arrowLink").style.visibility = "visible";
+      document.getElementById("arrowLink").style.opacity = "1";
     } else if (window.scrollY < 1000) {
-      document.getElementById('arrow').style.visibility = 'hidden';
+      document.getElementById("arrowLink").style.visibility = "hidden";
+      document.getElementById("arrowLink").style.opacity = "0";
     }
-  }
+  };
+
+  const mouseOver = () => {
+    document.getElementById("arrowLink").style.color = "#fff";
+  };
+  const mouseOut = () => {
+    document.getElementById("arrowLink").style.color =
+      "rgba(255, 255, 255, 0.473)";
+  };
 
   window.addEventListener("scroll", showArrow);
 
@@ -39,11 +52,19 @@ function Contact() {
             </div>
           </div>
         </Fade>
-        <HashLink id='arrow' smooth to='#welcome-section' className='arrow-up'>
-          <IoChevronUp />
-        </HashLink>
+        <div id="arrowDiv">
+          <HashLink
+            onMouseOver={mouseOver}
+            onMouseOut={mouseOut}
+            id="arrowLink"
+            className="arrow-up"
+            smooth
+            to="#home"
+          >
+            <IoChevronUp />
+          </HashLink>
+        </div>
       </div>
-      
     </>
   );
 }

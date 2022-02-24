@@ -3,6 +3,7 @@ import CarGalleryImage from "../../../images/car gallery.png";
 import LaunchChecklistImage from "../../../images/launch checklist.png";
 import TechJobsImage from "../../../images/techjobs.png";
 import OrbitReportImage from "../../../images/orbit report.png";
+import scrabbleScorer from "../../../images/scrabbleScorer.png";
 
 export const ProjectData = [
   {
@@ -49,4 +50,27 @@ export const ProjectData = [
     alt: "Orbit Report",
     repo: "https://github.com/l2fc3s/orbit-report",
   },
+
+  {
+    link: "https://replit.com/@blvck86/Graded-Assignment-2-Scrabble-Scorer-1#index.js",
+    title: "Scrabble Scorer",
+    image: scrabbleScorer,
+    text: "NodeJS Scrabble scorer console game that allows the user to interact through readline sync. User can select three scoring algorithms. The game will add up points for each word, and display a final score when 'stop' is detected.",
+    alt: "Scrabble Scorer",
+    repo: "https://github.com/l2fc3s/Scrabble-Scorer",
+  },
 ];
+
+/*  
+Images should be cropped at 5x7
+
+{
+    link: " project link",
+    title: "Project title",
+    image: image variable,
+    text: " project description ",
+    alt: "alt description",
+    repo: "repository link",
+  },
+
+*/

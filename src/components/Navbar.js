@@ -12,10 +12,8 @@ function Navbar() {
 
   return (
     <>
-      <nav className="navbar">
+      <nav id="home" className="navbar">
         <div className="navbar-container">
-          
-
           <div className="mobile-icon" onClick={handleClick}>
             {click ? (
               <IoCloseOutline className="times" />
