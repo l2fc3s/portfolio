@@ -15,8 +15,6 @@
   height: 50px;
 }
 
-
-
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(6, auto);
@@ -36,16 +34,11 @@
   padding: 0 10px 0 10px;
   height: 100%;
   font-size: 1rem;
+  transition: 0.5s ease;
 }
 
 .nav-links:hover {
   color: #fc4445;
-  transition: 300ms;
-}
-
-.navbar-logo:hover {
-  color: #c09f80;
-  transition: 300ms;
 }
 
 /* Mobile Section */
@@ -62,7 +55,6 @@
     opacity: 1;
     transition: all 0.5s ease;
   }
-
 
   .nav-menu.active {
     display: block;

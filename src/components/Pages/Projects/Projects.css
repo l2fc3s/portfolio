@@ -28,6 +28,11 @@
   font-size: 0.9rem;
 }
 
+.link-text {
+  color: #888888;
+  font-size: 0.9rem;
+}
+
 .project-image {
   width: 100%;
   height: auto;

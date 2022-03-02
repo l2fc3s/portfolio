@@ -43,10 +43,10 @@ const Music = () => {
                     <a target="_blank" href={music.link}>
                       Listen
                     </a>{" "}
-                    or{" "}
+                    {/* or{" "}
                     <a target="_blank" href={music.link}>
                       Buy
-                    </a>
+                    </a> */}
                   </p>
                 </div>
               );

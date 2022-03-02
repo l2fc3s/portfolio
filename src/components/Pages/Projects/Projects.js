@@ -29,9 +29,24 @@ function Projects() {
                 </a>
                 <h2 className="project-title">{project.title}</h2>
                 <p className="description">{project.text}</p>
-                <a target="_blank" className="view-more" href={project.repo}>
-                  View on Github
-                </a>
+                <p className="link-text">
+                  <a target="_blank" className="view-more" href={project.repo}>
+                    View code
+                  </a>
+                  {project.hasViewProjectLink && (
+                    <span>
+                      {" "}
+                      or{" "}
+                      <a
+                        target="_blank"
+                        className="view-more"
+                        href={project.link}
+                      >
+                        See project
+                      </a>
+                    </span>
+                  )}
+                </p>
               </div>
             );
           })}

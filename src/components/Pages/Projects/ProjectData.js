@@ -13,6 +13,7 @@ export const ProjectData = [
     text: 'React "loft rental" landing page. Fully mobile responsive design with an animated image slider gallery.',
     alt: "React 'Loft Rental' Site",
     repo: "https://github.com/l2fc3s/react-loftRental-website",
+    hasViewProjectLink: true,
   },
 
   {
@@ -22,6 +23,7 @@ export const ProjectData = [
     text: "A small gallery of car photos I have taken over the last few years. Each photo displays a short paragraph on mouse hover. Responsive design for mobile and desktop with collapsible navigation bar.",
     alt: "Car Photo Gallery",
     repo: "https://github.com/l2fc3s/html-me-something",
+    hasViewProjectLink: true,
   },
 
   {
@@ -31,6 +33,7 @@ export const ProjectData = [
     text: "An html/css form with javascript validators for entry and data type. Uses API call to randomly fetch planetary data on load.",
     alt: "Launch Checklist Form",
     repo: "https://github.com/l2fc3s/Launch-Checklist-Form",
+    hasViewProjectLink: true,
   },
 
   {
@@ -40,6 +43,7 @@ export const ProjectData = [
     text: "This is a project done in LaunchCode LC101.  I contributed by connecting the application to a MySQL database. I also Implemented features that allow the user to add a new job, employer, and skills to the web application and database. The user can also search for specific jobs, employers, or skills. Search results show in a will list, or the user can view jobs by category.",
     alt: "Java TechJobs",
     repo: "https://github.com/l2fc3s/java-web-dev-techjobs-persistent",
+    hasViewProjectLink: false,
   },
 
   {
@@ -49,6 +53,7 @@ export const ProjectData = [
     text: " This is a project built using Angular framework. It features a table of Satellite names including data for each. The table is sortable by column, and filters based on search results. It also shows total number of satellites in the table, as well as the count for each type of satellite.",
     alt: "Orbit Report",
     repo: "https://github.com/l2fc3s/orbit-report",
+    hasViewProjectLink: false,
   },
 
   {
@@ -58,6 +63,7 @@ export const ProjectData = [
     text: "NodeJS Scrabble scorer console game that allows the user to interact through readline sync. User can select three scoring algorithms. The game will add up points for each word, and display a final score when 'stop' is detected.",
     alt: "Scrabble Scorer",
     repo: "https://github.com/l2fc3s/Scrabble-Scorer",
+    hasViewProjectLink: true,
   },
 ];
 
@@ -71,6 +77,7 @@ Images should be cropped at 5x7
     text: " project description ",
     alt: "alt description",
     repo: "repository link",
+    hasViewProjectLink: Boolean,
   },
 
 */
