@@ -4,8 +4,19 @@ import LaunchChecklistImage from "../../../images/launch checklist.png";
 import TechJobsImage from "../../../images/techjobs.png";
 import OrbitReportImage from "../../../images/orbit report.png";
 import scrabbleScorer from "../../../images/scrabbleScorer.png";
+import portfolioImg from "../../../images/portfolioImg.png";
 
 export const ProjectData = [
+  {
+    link: " https://github.com/l2fc3s/portfolio ",
+    title: "Portfolio",
+    image: portfolioImg,
+    text: "This is the site you are currently viewing. For this site I used React.  Some of the features include a fully mobile responsive layout, collapsible nav-bar, single page layout, and dynamic data for easy updating.",
+    alt: "Portfolio site",
+    repo: "https://github.com/l2fc3s/portfolio",
+    hasViewProjectLink: false,
+  },
+
   {
     link: "https://l2fc3s.github.io/react-loftRental-website/#/",
     title: "'Loft Rental' Site",
