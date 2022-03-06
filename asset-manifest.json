@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.5c84a81f.chunk.css",
-    "main.js": "/portfolio/static/js/main.17f6a3dc.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.17f6a3dc.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.53e6805f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.53e6805f.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.c2ac6937.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.c2ac6937.js.map",
-    "static/js/2.eee36c26.chunk.js": "/portfolio/static/js/2.eee36c26.chunk.js",
-    "static/js/2.eee36c26.chunk.js.map": "/portfolio/static/js/2.eee36c26.chunk.js.map",
+    "static/js/2.dc163e31.chunk.js": "/portfolio/static/js/2.dc163e31.chunk.js",
+    "static/js/2.dc163e31.chunk.js.map": "/portfolio/static/js/2.dc163e31.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/main.5c84a81f.chunk.css.map": "/portfolio/static/css/main.5c84a81f.chunk.css.map",
-    "static/js/2.eee36c26.chunk.js.LICENSE.txt": "/portfolio/static/js/2.eee36c26.chunk.js.LICENSE.txt",
+    "static/js/2.dc163e31.chunk.js.LICENSE.txt": "/portfolio/static/js/2.dc163e31.chunk.js.LICENSE.txt",
     "static/media/Larry LaMar Resume 2022.2ed40763.pdf": "/portfolio/static/media/Larry LaMar Resume 2022.2ed40763.pdf",
     "static/media/allCity.6f426fd8.jpeg": "/portfolio/static/media/allCity.6f426fd8.jpeg",
     "static/media/car gallery.dbaee9ba.png": "/portfolio/static/media/car gallery.dbaee9ba.png",
@@ -26,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c2ac6937.js",
-    "static/js/2.eee36c26.chunk.js",
+    "static/js/2.dc163e31.chunk.js",
     "static/css/main.5c84a81f.chunk.css",
-    "static/js/main.17f6a3dc.chunk.js"
+    "static/js/main.53e6805f.chunk.js"
   ]
 }
