@@ -1,21 +1,21 @@
 import React from "react";
 import { Button } from "../../Button";
 import { IoArrowForward } from "react-icons/io5";
-import Fade from "react-reveal/Fade";
 import { ProjectData } from "./ProjectData";
 import "./Projects.css";
 import resume from "../../../resume/Larry LaMar Resume 2022.pdf";
 import { Link } from "react-router-dom";
+import ScrollAnimation from "react-animate-on-scroll";
+import "animate.css/animate.min.css";
 
 function Projects() {
   return (
     <div id="projectSection" className="project-section">
-      <Fade>
+      <ScrollAnimation animateIn="animate__fadeIn">
         <div className="header-div">
           <h1 className="project-header">Projects</h1>
         </div>
-      </Fade>
-      <Fade>
+
         <div className="project-container">
           {ProjectData.map((project) => {
             return (
@@ -59,7 +59,7 @@ function Projects() {
             </Button>
           </Link>
         </div>
-      </Fade>
+      </ScrollAnimation>
     </div>
   );
 }

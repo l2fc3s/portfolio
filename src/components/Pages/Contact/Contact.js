@@ -6,8 +6,9 @@ import {
   IoLogoGithub,
   IoChevronUp,
 } from "react-icons/io5";
-import { Fade } from "react-reveal";
 import { HashLink } from "react-router-hash-link";
+import ScrollAnimation from "react-animate-on-scroll";
+import "animate.css/animate.min.css";
 
 function Contact() {
   const showArrow = () => {
@@ -33,7 +34,7 @@ function Contact() {
   return (
     <>
       <div id="contactSection" className="contact-section">
-        <Fade>
+        <ScrollAnimation animateIn="animate__fadeIn">
           <div className="contact-container">
             <div className="contact-headline">
               <h1>Contact</h1>
@@ -51,7 +52,7 @@ function Contact() {
               </a>
             </div>
           </div>
-        </Fade>
+        </ScrollAnimation>
         <div id="arrowDiv">
           <HashLink
             onMouseOver={mouseOver}

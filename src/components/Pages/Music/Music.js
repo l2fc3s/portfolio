@@ -1,13 +1,15 @@
 import React from "react";
 import "./Music.css";
 import { MusicData } from "./MusicData";
-import Fade from "react-reveal/Fade";
+
+import ScrollAnimation from "react-animate-on-scroll";
+import "animate.css/animate.min.css";
 
 const Music = () => {
   return (
     <>
       <div id="musicSection" className="music-section">
-        <Fade>
+        <ScrollAnimation animateIn="animate__fadeIn">
           <div className="music-header-section">
             <h1 className="music-header">Music</h1>
             <p className="music-description">
@@ -18,9 +20,7 @@ const Music = () => {
               vinyl records.
             </p>
           </div>
-        </Fade>
 
-        <Fade>
           <div className="music-project-container">
             {MusicData.map((music) => {
               return (
@@ -52,7 +52,7 @@ const Music = () => {
               );
             })}
           </div>
-        </Fade>
+        </ScrollAnimation>
       </div>
     </>
   );
