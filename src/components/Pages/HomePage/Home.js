@@ -9,7 +9,7 @@ import { aboutObject } from "../About/AboutData";
 export default function Home() {
   return (
     <>
-      <About {...aboutObject}/>
+      <About {...aboutObject} />
       <Projects />
       <Music />
       <Contact />
