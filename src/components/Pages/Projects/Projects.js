@@ -19,7 +19,7 @@ function Projects() {
         <div className="project-container">
           {ProjectData.map((project) => {
             return (
-              <div className="project-card">
+              <div key={project.id} className="project-card">
                 <a target="_blank" href={project.link}>
                   <img
                     className="project-image"

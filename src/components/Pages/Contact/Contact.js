@@ -15,6 +15,8 @@ function Contact() {
     if (window.scrollY >= 1000) {
       document.getElementById("arrowLink").style.visibility = "visible";
       document.getElementById("arrowLink").style.opacity = "1";
+      document.getElementById("arrowLink").style.color =
+        "rgba(255, 255, 255, 0.473)";
     } else if (window.scrollY < 1000) {
       document.getElementById("arrowLink").style.visibility = "hidden";
       document.getElementById("arrowLink").style.opacity = "0";

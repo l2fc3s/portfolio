@@ -24,7 +24,7 @@ const Music = () => {
           <div className="music-project-container">
             {MusicData.map((music) => {
               return (
-                <div className="music-cards">
+                <div key={music.id} className="music-cards">
                   <div className="image-container">
                     <a target="_blank" href={music.link}>
                       <img

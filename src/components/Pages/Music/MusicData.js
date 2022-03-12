@@ -6,6 +6,7 @@ import rainyDay from "../../../images/rainyDay.jpeg";
 
 export const MusicData = [
   {
+    id: "fc3s",
     name: "FC3S",
     link: "https://l2-music.bandcamp.com/album/fc3s",
     image: fc3s,
@@ -15,6 +16,7 @@ export const MusicData = [
   },
 
   {
+    id: "allCity",
     name: "All City",
     link: "https://l2-music.bandcamp.com/album/all-city",
     image: allCity,
@@ -24,6 +26,7 @@ export const MusicData = [
   },
 
   {
+    id: "soulSessions",
     name: "Soul Sessions",
     link: "https://l2-music.bandcamp.com/album/soul-sessions-ep",
     image: soulSessions,
@@ -33,6 +36,7 @@ export const MusicData = [
   },
 
   {
+    id: "reflections",
     name: "Reflections",
     link: "https://soundcloud.com/l2music7/reflections",
     image: reflections,
@@ -42,6 +46,7 @@ export const MusicData = [
   },
 
   {
+    id: "rainyDayDrums",
     name: "Rainy Day Drums",
     link: "https://soundcloud.com/l2music7/rainy-day-drums",
     image: rainyDay,
@@ -50,3 +55,13 @@ export const MusicData = [
     released: "Single - Jan 2019",
   },
 ];
+
+// {
+//   id: 'string',
+//   name: "Title",
+//   link: "link",
+//   image: string variable,
+//   text: "description",
+//   alt: "alt text",
+//   released: "release date",
+// },

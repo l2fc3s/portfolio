@@ -8,6 +8,7 @@ import portfolioImg from "../../../images/portfolioImg.png";
 
 export const ProjectData = [
   {
+    id: 1,
     link: " https://github.com/l2fc3s/portfolio ",
     title: "Portfolio",
     image: portfolioImg,
@@ -18,6 +19,7 @@ export const ProjectData = [
   },
 
   {
+    id: 2,
     link: "https://l2fc3s.github.io/react-loftRental-website/#/",
     title: "'Loft Rental' Site",
     image: LoftRentalImage,
@@ -28,6 +30,7 @@ export const ProjectData = [
   },
 
   {
+    id: 3,
     link: "https://l2fc3s.github.io/html-me-something/#body",
     title: "Car Photo Gallery",
     image: CarGalleryImage,
@@ -38,6 +41,7 @@ export const ProjectData = [
   },
 
   {
+    id: 4,
     link: " https://l2fc3s.github.io/Launch-Checklist-Form/ ",
     title: "Launch Checklist Form",
     image: LaunchChecklistImage,
@@ -48,6 +52,7 @@ export const ProjectData = [
   },
 
   {
+    id: 5,
     link: " https://github.com/l2fc3s/java-web-dev-techjobs-persistent",
     title: "Java TechJobs",
     image: TechJobsImage,
@@ -58,6 +63,7 @@ export const ProjectData = [
   },
 
   {
+    id: 6,
     link: " https://github.com/l2fc3s/orbit-report",
     title: "Orbit Report",
     image: OrbitReportImage,
@@ -68,6 +74,7 @@ export const ProjectData = [
   },
 
   {
+    id: 7,
     link: "https://replit.com/@blvck86/Graded-Assignment-2-Scrabble-Scorer-1#index.js",
     title: "Scrabble Scorer",
     image: scrabbleScorer,
@@ -82,6 +89,7 @@ export const ProjectData = [
 Images should be cropped at 5x7
 
 {
+    id: number,
     link: " project link",
     title: "Project title",
     image: image variable,
