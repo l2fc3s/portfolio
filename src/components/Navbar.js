@@ -10,6 +10,21 @@ function Navbar() {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
+  const resetClick = () => {
+    if (window.innerWidth > 960) {
+      setClick(false);
+    }
+  };
+
+  window.addEventListener("resize", resetClick);
+
+  if (click) {
+    document.body.style.height = "100vh";
+    document.body.style.overflow = "hidden";
+  } else {
+    document.body.style.overflow = "initial";
+  }
+
   return (
     <>
       <nav id="home" className="navbar">
