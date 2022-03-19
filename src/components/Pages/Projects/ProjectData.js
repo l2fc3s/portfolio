@@ -4,7 +4,7 @@ import LaunchChecklistImage from "../../../images/launch checklist.png";
 import TechJobsImage from "../../../images/techjobs.png";
 import OrbitReportImage from "../../../images/orbit report.png";
 import scrabbleScorer from "../../../images/scrabbleScorer.png";
-import portfolioImg from "../../../images/portfolioImg.png";
+import portfolioImg from "../../../images/portfolio2img.png";
 
 export const ProjectData = [
   {

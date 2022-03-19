@@ -42,7 +42,7 @@ function Contact() {
               <h1>Contact</h1>
             </div>
 
-            <div className="">
+            <div className="contact-links">
               <a target="_blank" href="mailto:lmrlrry@gmail.com">
                 <IoMailOutline className="contact-icon" />
               </a>
