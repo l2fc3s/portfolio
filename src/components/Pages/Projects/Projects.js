@@ -3,8 +3,6 @@ import { Button } from "../../Button";
 import { IoArrowForward } from "react-icons/io5";
 import { ProjectData } from "./ProjectData";
 import "./Projects.css";
-import resume from "../../../resume/Larry LaMar Resume 2022.pdf";
-import { Link } from "react-router-dom";
 import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
 
@@ -53,11 +51,14 @@ function Projects() {
         </div>
 
         <div className="button-div">
-          <Link to={resume} download target="blank">
+          <a
+            href="https://drive.google.com/file/d/1g8ZlfDuLVBhvRJzRqPOsmTzuCmwCT1_h/view?usp=sharing"
+            target="blank"
+          >
             <Button buttonSize="btn--medium">
               Resume {<IoArrowForward className="icon" />}
             </Button>
-          </Link>
+          </a>
         </div>
       </ScrollAnimation>
     </div>

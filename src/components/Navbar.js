@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { HashLink } from "react-router-hash-link";
 import { IoCloseOutline, IoReorderTwoOutline } from "react-icons/io5";
 import "./Navbar.css";
-import resume from "../resume/Larry LaMar Resume 2022.pdf";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -50,15 +49,14 @@ function Navbar() {
             </li>
 
             <li className="nav-item">
-              <HashLink
-                to={resume}
-                download
+              <a
+                href="https://drive.google.com/file/d/1g8ZlfDuLVBhvRJzRqPOsmTzuCmwCT1_h/view?usp=sharing"
                 target="blank"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
                 Resume
-              </HashLink>
+              </a>
             </li>
 
             <li className="nav-item">
