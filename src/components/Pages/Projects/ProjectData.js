@@ -5,8 +5,20 @@ import TechJobsImage from "../../../images/techjobs.png";
 import OrbitReportImage from "../../../images/orbit report.png";
 import scrabbleScorer from "../../../images/scrabbleScorer.png";
 import portfolioImg from "../../../images/portfolio2img.png";
+import weatherAppImg from "../../../images/weatherAppImage.jpg";
 
 export const ProjectData = [
+  {
+    id: 8,
+    link: "https://l2fc3s.github.io/js-weather-app/",
+    title: "Weather App",
+    image: weatherAppImg,
+    text: "Mobile responsive Weather App Built using Javascript, HTML, and CSS. Uses OpenWeather API, and Geolocation API to retrieve weather data on page load. Features the current temperature, a 5 day forecast, a 3 hour forecast, miscellaneous weather data, and a loading animation. Weather icons, and app background change based on weather conditions.",
+    alt: "Weather application",
+    repo: "https://github.com/l2fc3s/js-weather-app",
+    hasViewProjectLink: true,
+  },
+
   {
     id: 1,
     link: " https://github.com/l2fc3s/portfolio ",
@@ -21,7 +33,7 @@ export const ProjectData = [
   {
     id: 2,
     link: "https://l2fc3s.github.io/react-loftRental-website/#/",
-    title: "'Loft Rental' Site",
+    title: "React Landing Page",
     image: LoftRentalImage,
     text: 'React "loft rental" landing page. Fully mobile responsive design with an animated image slider gallery.',
     alt: "React 'Loft Rental' Site",
