@@ -13,14 +13,13 @@ export const ProjectData = [
     link: "https://l2fc3s.github.io/js-weather-app/",
     title: "Weather App",
     image: weatherAppImg,
-    text: "Mobile responsive Weather App Built using Javascript, HTML, and CSS. Uses OpenWeatherMap API, and Geolocation API to retrieve weather data and location on page load. Features include the current temperature, a 5 day forecast, a 3 hour forecast, miscellaneous weather data, and loading animation. Weather icons, and app background change based on weather conditions.",
-    alt: "Weather application",
+    text: "Fully functional Javascript Weather application. The app uses OpenWeatherMap API, Geolocation API, and JSON to fetch and dynamically display weather data on page load. The user can search for new locations by city name. Search history saves to the navigation menu, along with the original user location. The search history can be modified by deleting or adding a new location.",
     repo: "https://github.com/l2fc3s/js-weather-app",
     hasViewProjectLink: true,
   },
 
   {
-    id: 1,
+    id: 7,
     link: " https://github.com/l2fc3s/portfolio ",
     title: "Portfolio",
     image: portfolioImg,
@@ -31,7 +30,7 @@ export const ProjectData = [
   },
 
   {
-    id: 2,
+    id: 6,
     link: "https://l2fc3s.github.io/react-loftRental-website/#/",
     title: "React Landing Page",
     image: LoftRentalImage,
@@ -42,7 +41,7 @@ export const ProjectData = [
   },
 
   {
-    id: 3,
+    id: 5,
     link: "https://l2fc3s.github.io/html-me-something/#body",
     title: "Car Photo Gallery",
     image: CarGalleryImage,
@@ -64,7 +63,7 @@ export const ProjectData = [
   },
 
   {
-    id: 5,
+    id: 3,
     link: " https://github.com/l2fc3s/java-web-dev-techjobs-persistent",
     title: "Java TechJobs",
     image: TechJobsImage,
@@ -75,7 +74,7 @@ export const ProjectData = [
   },
 
   {
-    id: 6,
+    id: 2,
     link: " https://github.com/l2fc3s/orbit-report",
     title: "Orbit Report",
     image: OrbitReportImage,
@@ -86,7 +85,7 @@ export const ProjectData = [
   },
 
   {
-    id: 7,
+    id: 1,
     link: "https://replit.com/@blvck86/Graded-Assignment-2-Scrabble-Scorer-1#index.js",
     title: "Scrabble Scorer",
     image: scrabbleScorer,
