@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6d718c8d.chunk.css",
-    "main.js": "/portfolio/static/js/main.0699a0a2.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.0699a0a2.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.b2449f97.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b2449f97.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.c2ac6937.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.c2ac6937.js.map",
     "static/css/2.cc77c331.chunk.css": "/portfolio/static/css/2.cc77c331.chunk.css",
@@ -24,13 +24,13 @@
     "static/media/scrabbleScorer.5636a384.png": "/portfolio/static/media/scrabbleScorer.5636a384.png",
     "static/media/soulSessions.35c1d5f5.jpeg": "/portfolio/static/media/soulSessions.35c1d5f5.jpeg",
     "static/media/techjobs.cdc45305.png": "/portfolio/static/media/techjobs.cdc45305.png",
-    "static/media/weatherAppImage.5a72bf78.jpg": "/portfolio/static/media/weatherAppImage.5a72bf78.jpg"
+    "static/media/weatherAppImage.071f2acc.jpg": "/portfolio/static/media/weatherAppImage.071f2acc.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c2ac6937.js",
     "static/css/2.cc77c331.chunk.css",
     "static/js/2.3541635c.chunk.js",
     "static/css/main.6d718c8d.chunk.css",
-    "static/js/main.0699a0a2.chunk.js"
+    "static/js/main.b2449f97.chunk.js"
   ]
 }
